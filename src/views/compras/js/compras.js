@@ -47,15 +47,7 @@ const buscador = () => {
 
 
 const verDetallesCompra = () =>{
-    //window.open('http://localhost:3000/detallesCompra/', 'detallesCompra', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=1,width=700,height=600,left = 390,top = 50')
-
-    let todoLosDetalles = document.querySelectorAll('.todosLosDetalles')
-
-    let num = 1
-
-    todoLosDetalles.forEach(obj => {
-        
-    })
+    window.open('http://localhost:3000/detallesCompra/', 'detallesCompra', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=1,width=700,height=600,left = 390,top = 50')
 }
 
 const cerrar = () => {
